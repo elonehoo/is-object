@@ -1,33 +1,22 @@
-<div align="center">
-  <img src="./public/logo.svg" wigth='100px' height='100px' />
-</div>
+# is Object
 
-<h1 align='center'>Titem Mini</h1>
+Checks whether a value is an object
 
-## Features
+Because `typeof` null is a troll.
 
-- ⚡️ [Vite 3](https://github.com/vitejs/vite), [pnpm](https://github.com/pnpm/pnpm) - born with fastness
-
-- ✅ Use Vitest for unit and components testing
-
-- 🦾 TypeScript, of course
-
-## Vscode
-
-- [extensions.json](./.vscode/extensions.json)
-
-- [settings.json](./.vscode/settings.json)
-
-## Try it now!
-
-[Create a repo from this template on GitHub](https://github.com/elonehoo/titem-mini/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
+## Install
 
 ```bash
-npx degit elonehoo/titem-mini my-titem-mini-app
-cd my-titem-mini-app
-pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
+# npm
+npm install --save-dev @elonehoo/is-object
+
+# yarn
+yarn add --dev @elonehoo/is-object
+
+# pnpm
+pnpm install --save-dev @elonehoo/is-object
 ```
+
+## License
+
+[MIT License](./LICENSE) © 2022-PRESENT [Elone Hoo](https://github.com/elonehoo)
