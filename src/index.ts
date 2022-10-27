@@ -1,2 +1,6 @@
-export const one = 1
-export const two = 2
+function isObject(value:any):boolean{
+  return typeof value === 'object' && value !== null
+}
+
+
+export default isObject
