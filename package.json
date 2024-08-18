@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/is-object",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Checks whether a value is an object, because typeof is a troll.",
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
